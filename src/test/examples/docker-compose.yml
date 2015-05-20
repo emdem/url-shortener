@@ -1,0 +1,13 @@
+redis:
+   image: redis:2.8.19
+   ports:
+      - "6379:6379"
+urlshortener:
+   image: linuxchina/url-shortener
+   ports:
+      - "8080:8080"
+   environment:
+      DOMAIN_NAME: "http://mydomain.com/"
+      REDIS_HOST: "redis.mvnsearch.net"
+   links:
+      - redis:redis.mvnsearch.net
