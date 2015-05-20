@@ -40,5 +40,8 @@ Create a docker-compose.yml with following content:
             - "8080:8080"
          environment:
             DOMAIN_NAME: "http://mydomain.com/"
+            REDIS_HOST: "redis.mvnsearch.net"
          links:
           - redis:redis.mvnsearch.net
+
+The redis.mvnsearch.net is the redis host name.
