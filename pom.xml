@@ -18,9 +18,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:linux-china/mail-catcher.git</connection>
-        <developerConnection>scm:git:git@github.com:linux-china/mail-catcher.git</developerConnection>
-        <url>https://github.com/linux-china/mail-catcher</url>
+        <connection>scm:git:git@github.com:linux-china/url-shortener.git</connection>
+        <developerConnection>scm:git:git@github.com:linux-china/url-shortener.git</developerConnection>
+        <url>https://github.com/linux-china/url-shortener</url>
     </scm>
 
     <developers>
