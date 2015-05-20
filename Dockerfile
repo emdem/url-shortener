@@ -1,7 +1,7 @@
 FROM java:8-jdk
 MAINTAINER linux_china linux_china@hotmail.com
 
-ADD target/hsf-server-demo-0.0.1-SNAPSHOT.jar /opt/url-shortener-0.0.1-SNAPSHOT.jar
+ADD target/url-shortener-0.0.1-SNAPSHOT.jar /opt/url-shortener-0.0.1-SNAPSHOT.jar
 
 
 EXPOSE 8080
